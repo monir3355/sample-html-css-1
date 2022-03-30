@@ -1,0 +1,85 @@
+/* ------------Nav menu---------------*/
+.navbar-dark .navbar-nav .nav-link{
+    color: white !important;
+    font-weight: 700;
+    padding: 0 15px;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    background: #e41d27;
+    border-radius: 10px;
+}
+.navbar {
+    background-image: linear-gradient(to right, #a517ba,#5f1782)!important;
+}
+
+/*---------------------Banner Section--------------------------*/
+#banner-section{
+    background-image: linear-gradient(to right, #a517ba,#5f1782)!important;
+}
+.font-size-header{
+    font-size: 40px;
+}
+.font-size{
+    font-size: 18px;
+}
+#banner-section .row .col-md-6 p .btn{
+    text-align: left;
+}
+.play-img{
+    width: 16%;
+}
+/*---------Service Section--------*/
+
+.title-size::after{
+    content: '';
+    height: 4px;
+    width: 200px;
+    background-color: #a517ba;
+    display: block; 
+    margin: auto;
+    transform: translateY(8px);
+}
+#services-section img{
+    width: 20%;
+}
+#services-section .justify-content-center{
+    text-align: justify;
+}
+
+.services-button {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff !important;
+}
+/*------------ABOUT SECTION-------------*/
+.services-ul-text{
+    font-size: 20px;
+}
+/*-----------Testimonials Section-----------*/
+.testimonials-img{
+    width: 20% !important;
+}
+.border-testimonials{
+    border-left: 4px solid #a517ba ;
+}
+/*-----------Socials media------------*/
+#socials-icon{
+    background: #f8f9fa;
+}
+.img-icon{
+    width: 60px;
+    transition: .5s;
+}
+#socials-icon img:hover{
+    transform: translateY(-10px);
+}
+/*-------footer------*/
+#footer{
+    background-image: linear-gradient(to right, #a517ba,#5f1782)!important;
+}
+.footer-textt{
+    font-size: 18px;
+}
+.spant-text{
+    font-size: 20px;
+    padding-left: 10px;
+}
